@@ -1,0 +1,78 @@
+body {
+	background-color: black;
+}
+
+/*============= header =============*/
+
+header {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	background-color: rgba(165, 86, 235, .75);
+	color: rgb(255, 244, 25);
+	padding: 1px;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+
+/*============= body =============*/
+
+.container {
+	display: block;
+	margin: 0 auto;
+	text-align: right;
+	background-image: url('assets/champagne-enema.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 560px;
+}
+
+/*============= button =============*/
+
+.btn {
+  font-size: 18px;
+  padding: 10px 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: rgb(255, 244, 25);
+  background-color: rgb(165, 86, 235);
+  border-color: black;
+}
+
+.btn-box {
+	padding: 15px 100px 10px 30px;
+}
+
+/*============= button =============*/
+
+.names {
+	line-height: 25px;
+	font-weight: 700;
+	font-size: 18px;
+	padding-right: 100px;
+	overflow: auto;
+	overflow: scroll;
+	height: 480px;
+}
+
+/*============= footer =============*/
+
+footer {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	text-align: left;
+	background-color: rgba(165, 86, 235, .75);
+	color: rgb(255, 244, 25);
+	bottom: 0;
+	position: fixed;
+	padding: 25px 25px 25px 25px;
+}
